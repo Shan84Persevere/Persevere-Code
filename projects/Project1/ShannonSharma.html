@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content="school project">
+    <title>Shannon Sharma</title>
+<style>
+    *{
+        text-align: center;
+        font-family:'courier New';
+    }
+h1  {
+        font-family:'courier New';
+        text-shadow: darkcyan 5px 5px 5px;
+        font-size:5em;
+        color:teal;
+        width:70vw;
+        text-align: center;
+         }
+hr.tall {
+height:3vh;
+}
+    body{
+        background:lightgreen;
+        width:75vw;
+        margin:auto auto;
+        
+    }
+  
+   hr {
+    background-color:turquoise;
+   }
+   h3{
+    text-align: center;
+   }
+</style>
+</head>
+<body>
+    <hr class="tall">
+    <h1>Shannon Sharma</h1>
+    <hr class="
+    tall">
+    <h4 id="currentDate"></h4>
+    <h3>MOTIVATION:</h3>
+    
+    <i>I want to learn to code because.... <br>
+         I enjoy it and it pays well. There's nothing better than a career you enjoy!</i>
+    <h3>launching soon...</h3>
+    <p id="dateCreated">November 16, 2024</p>
+
+
+</body>
+<script type="text/javaScript">
+    function updateDate() {
+        let today = new Date();
+        let dateString = today.toLocaleDateString();
+        document.getElementById("currentDate").textContent = dateString;
+    }
+    updateDate();
+</script>
+</html>
