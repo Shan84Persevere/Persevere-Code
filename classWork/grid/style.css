@@ -1,0 +1,30 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "aside sidebar"
+    "section content"
+    "footer footer";
+    grid-template-columns: 1fr 2fr; 
+    grid-template-rows: auto 3fr auto;
+}
+header {
+    display: grid;
+    grid-area: header;
+    background-color: blue;
+}
+aside{
+    grid-area: sidebar;
+    grid-column:2/3;
+    background-color: aquamarine;
+
+}
+section {
+    grid-area: content;
+    background-color:mediumspringgreen;
+}
+footer{
+   grid-area:footer;
+   background-color: aqua;
+}
+
