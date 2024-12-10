@@ -1,12 +1,9 @@
 
 header {
-  font-variant: small-caps;
-  font-weight: 600;
+    font-variant: small-caps;
+    font-weight: 600;
     text-align: center;
-  
-   
-}
-
+  }
 table {
     height:90vh;
     width:80vw;   
@@ -14,6 +11,7 @@ table {
     text-align: center;
     font-variant: small-caps; 
     border-collapse: collapse;
+    margin: auto auto;
 }
 .num, td {
     border:0.1em solid black;
