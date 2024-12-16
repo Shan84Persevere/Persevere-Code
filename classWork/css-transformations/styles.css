@@ -1,0 +1,40 @@
+body{
+  background-color: aquamarine;
+  color:teal;
+  margin: auto auto;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+
+
+}
+hr {
+    width:75%
+}
+.transform-box {
+    width:150px;
+    height:150px;
+    background-color: azure;
+    border: 4px dotted teal;
+    padding:10px;
+    transition: transform 2.5s ease-in-out;
+    border-radius: 25%;
+    margin: auto auto;
+    display: flex;justify-content: center;
+    align-items: center;
+
+}
+.transform-box :hover {
+    transition: transform 2.5s ease-in-out;
+    transform: translateX(50px) rotate(10deg) scale(1.2) skew(10deg, 5deg);
+  
+}
+button {
+    background-color: azure;
+    border: 2px solid teal;
+    border-radius: 35%;
+    padding: 10px;
+    width: 65%;
+    height:40%;
+    
+}
