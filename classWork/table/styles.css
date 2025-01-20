@@ -27,6 +27,10 @@ thead,td  {
     text-align: center;
     
 }
+span {
+    text-align: center;
+    
+}
 .days {
     height:4vh;
 }
